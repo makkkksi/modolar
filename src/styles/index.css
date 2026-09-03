@@ -915,8 +915,14 @@ button, input, select, textarea {
 }
 
 .contact-info {
-  position: sticky;
-  top: 6rem;
+  position: static;
+}
+
+@media (min-width: 1025px) {
+  .contact-info {
+    position: sticky;
+    top: 6.5rem;
+  }
 }
 
 .form-wrapper {
@@ -925,6 +931,8 @@ button, input, select, textarea {
   border-radius: var(--radius-lg);
   padding: clamp(1.75rem, 4vw, 3rem);
   box-shadow: 0 4px 30px rgba(19, 34, 56, 0.05);
+  position: relative;
+  z-index: 1;
 }
 
 .form-grid {
@@ -1116,10 +1124,20 @@ button, input, select, textarea {
 @media (max-width: 1024px) {
   .editorial-grid,
   .focus-layout,
-  .contact-layout,
   .about-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
+  }
+
+  .contact-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .contact-info {
+    position: static !important;
+    top: auto !important;
   }
 
   .focus-image-wrapper {

@@ -61,7 +61,7 @@ export const EcosystemDiagram: React.FC = () => {
               {/* Connection Paths from Left Nodes to MODOLAR Core (x: 470, y: 225) */}
               {systems.map((sys) => {
                 const isActive = activeNode === sys.id;
-                const pathD = `M 220 ${sys.y} C 340 ${sys.y}, 370 225, 430 225`;
+                const pathD = `M 235 ${sys.y} C 340 ${sys.y}, 370 225, 430 225`;
                 return (
                   <g key={`path-${sys.id}`}>
                     <path
@@ -114,7 +114,7 @@ export const EcosystemDiagram: React.FC = () => {
                     <rect
                       x="20"
                       y={sys.y - 25}
-                      width="200"
+                      width="215"
                       height="50"
                       rx="8"
                       fill={isSelected ? '#132238' : '#FFFFFF'}
@@ -124,28 +124,27 @@ export const EcosystemDiagram: React.FC = () => {
                       style={{ transition: 'all 0.25s ease' }}
                     />
                     <circle
-                      cx="42"
+                      cx="38"
                       cy={sys.y}
                       r="4"
                       fill={isSelected ? '#18A999' : '#4D6175'}
                     />
                     <text
-                      x="56"
-                      y={sys.y + 5}
+                      x="52"
+                      y={sys.y - 2}
                       fill={isSelected ? '#FFFFFF' : '#132238'}
-                      fontSize="13"
+                      fontSize="12.5"
                       fontWeight="700"
                       fontFamily="Manrope, sans-serif"
                     >
                       {sys.name}
                     </text>
                     <text
-                      x="160"
-                      y={sys.y + 4}
-                      fill={isSelected ? '#A5B7C7' : '#8A9BA8'}
-                      fontSize="10"
-                      fontWeight="500"
-                      textAnchor="end"
+                      x="52"
+                      y={sys.y + 13}
+                      fill={isSelected ? '#7EEBE0' : '#718096'}
+                      fontSize="9.5"
+                      fontWeight="600"
                       fontFamily="Manrope, sans-serif"
                     >
                       {sys.category}
