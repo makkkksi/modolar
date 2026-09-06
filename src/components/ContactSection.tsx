@@ -11,13 +11,13 @@ export const ContactSection: React.FC = () => {
           <div className="contact-info">
             <span className="eyebrow eyebrow-teal">Conversación directa</span>
             <h2 className="h2-section" style={{ marginBottom: '1.5rem' }}>
-              Cuéntanos cómo funciona tu operación.
+              Cuéntanos qué proceso quieres mejorar.
             </h2>
             <p className="lead-text" style={{ marginBottom: '1.5rem' }}>
-              No necesitas llegar con una solución técnica definida. Cuéntanos qué proceso quieres mejorar, qué herramientas utilizan hoy y dónde están apareciendo las principales fricciones.
+              No necesitas saber qué tecnología necesitas. Cuéntanos cómo funciona hoy, qué herramientas utilizan y dónde aparece el problema.
             </p>
             <p className="body-text" style={{ marginBottom: '2rem' }}>
-              El primer paso de nuestro trabajo es comprender la operación física y el flujo de datos. Si podemos ayudarte, te diremos exactamente cómo; si no corresponde desarrollar o intervenir, también te lo diremos con honestidad.
+              El primer paso de nuestro trabajo es comprender el proceso y el flujo de la información. Si podemos ayudarte, te diremos con honestidad cómo intervenir: adaptando lo existente, conectando plataformas o desarrollando una herramienta propia.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', borderTop: '1px solid var(--color-gray-border)', paddingTop: '1.75rem' }}>

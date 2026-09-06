@@ -19,8 +19,8 @@ export const Footer: React.FC = () => {
             <p className="footer-claim">
               Tecnología que se adapta a tu operación.
             </p>
-            <p style={{ fontSize: '0.8125rem', color: '#8395a7', marginTop: '0.75rem' }}>
-              Consultoría tecnológica especializada en optimización operacional, adaptación de ERP e integración de sistemas.
+            <p style={{ fontSize: '0.8125rem', color: '#8395a7', marginTop: '0.75rem', lineHeight: 1.6 }}>
+              Consultora tecnológica independiente especializada en integración de sistemas, automatización, adaptación de ERP y software interno.
             </p>
           </div>
 
@@ -29,21 +29,22 @@ export const Footer: React.FC = () => {
             <div>
               <div className="footer-col-title">Navegación</div>
               <ul className="footer-links">
-                <li><a href="#soluciones" className="footer-link">Soluciones</a></li>
+                <li><a href="#soluciones" className="footer-link">Dónde trabajamos</a></li>
                 <li><a href="#metodologia" className="footer-link">Cómo trabajamos</a></li>
-                <li><a href="#casos" className="footer-link">Casos de experiencia</a></li>
-                <li><a href="#sobre-modolar" className="footer-link">Sobre MODOLAR</a></li>
+                <li><a href="#casos" className="footer-link">Casos</a></li>
+                <li><a href="#sobre-modolar" className="footer-link">MODOLAR</a></li>
                 <li><a href="#contacto" className="footer-link">Contacto</a></li>
               </ul>
             </div>
 
             <div>
-              <div className="footer-col-title">Enfoque</div>
+              <div className="footer-col-title">Capacidades</div>
               <ul className="footer-links">
+                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Integraciones y APIs</span></li>
+                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Automatización de procesos</span></li>
                 <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Adaptación de ERP</span></li>
-                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Integración de Marketplaces</span></li>
-                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Software operacional a medida</span></li>
-                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Automatización logística</span></li>
+                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Software interno a medida</span></li>
+                <li><span style={{ color: '#8a9ba8', fontSize: '0.875rem' }}>Consultoría tecnológica</span></li>
               </ul>
             </div>
 
@@ -52,12 +53,12 @@ export const Footer: React.FC = () => {
               <ul className="footer-links">
                 <li>
                   <a href="#contacto" className="footer-link" style={{ color: 'var(--color-teal)' }}>
-                    Iniciar conversación operacional →
+                    Cuéntanos sobre tu proceso →
                   </a>
                 </li>
                 <li>
                   <span style={{ color: '#8a9ba8', fontSize: '0.8125rem' }}>
-                    Consultoría tecnológica desde Chile
+                    Consultoría independiente con base en Santiago de Chile
                   </span>
                 </li>
               </ul>

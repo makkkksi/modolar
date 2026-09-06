@@ -24,9 +24,31 @@ export const CaseStudies: React.FC = () => {
                 <span>tiendabomberos.cl</span>
               </div>
               <h3 className="case-title">Tienda Bomberos</h3>
-              <p className="case-desc">
-                Desarrollo y comercialización de vestuario técnico, uniformes institucionales y equipamiento para compañías de bomberos y brigadas industriales en todo Chile. Operación basada en la integración de e-commerce, catálogo especializado y gestión sobre la plataforma Odoo.
-              </p>
+
+              <div className="case-breakdown">
+                <div className="case-step">
+                  <span className="case-step-label">Contexto</span>
+                  <p className="case-step-text">
+                    Comercialización y distribución de vestuario técnico, uniformes institucionales y equipamiento especializado, con operación comercial apoyada en plataforma Odoo.
+                  </p>
+                </div>
+
+                <div className="case-step">
+                  <span className="case-step-label">Intervención</span>
+                  <p className="case-step-text">
+                    Adaptación de flujos de trabajo sobre Odoo e integración con la plataforma e-commerce para ordenar la gestión de pedidos, catálogo técnico y control de inventario.
+                  </p>
+                </div>
+
+                <div className="case-step">
+                  <span className="case-step-label">Sistemas involucrados</span>
+                  <div className="case-tech-tags">
+                    <span className="tech-pill">Odoo ERP</span>
+                    <span className="tech-pill">E-commerce</span>
+                    <span className="tech-pill">Catálogo técnico</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="case-footer">
@@ -55,9 +77,31 @@ export const CaseStudies: React.FC = () => {
                 <span>top-repuestos.cl</span>
               </div>
               <h3 className="case-title">Top Repuestos</h3>
-              <p className="case-desc">
-                Distribución y comercialización de repuestos automotrices multimarca, con gestión de catálogo de alta densidad de partes, sincronización con tiendas oficiales en Mercado Libre y control de stock para despacho inmediato.
-              </p>
+
+              <div className="case-breakdown">
+                <div className="case-step">
+                  <span className="case-step-label">Contexto</span>
+                  <p className="case-step-text">
+                    Distribución de repuestos automotrices con alta densidad de códigos en catálogo y venta activa a través de tiendas oficiales en Mercado Libre.
+                  </p>
+                </div>
+
+                <div className="case-step">
+                  <span className="case-step-label">Intervención</span>
+                  <p className="case-step-text">
+                    Desarrollo de herramientas internas para agilizar la gestión de catálogo, administración de información técnica y procesos específicos alrededor de Mercado Libre.
+                  </p>
+                </div>
+
+                <div className="case-step">
+                  <span className="case-step-label">Sistemas involucrados</span>
+                  <div className="case-tech-tags">
+                    <span className="tech-pill">Mercado Libre</span>
+                    <span className="tech-pill">APIs REST</span>
+                    <span className="tech-pill">Sistema interno</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="case-footer">

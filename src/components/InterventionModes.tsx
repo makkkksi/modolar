@@ -28,15 +28,15 @@ export const InterventionModes: React.FC = () => {
                 Pero no cubre todo tu proceso.
               </h3>
               <p className="intervention-body">
-                Extendemos y adaptamos ERP existentes para incorporar flujos y reglas de negocio específicas, evitando reemplazar innecesariamente herramientas que ya son familiares para tu equipo.
+                Extendemos ERP y herramientas existentes para resolver necesidades específicas sin reemplazar innecesariamente sistemas que ya funcionan.
               </p>
             </div>
 
             <div className="intervention-pills">
               <span className="tech-pill">Odoo</span>
               <span className="tech-pill">ERP internos</span>
-              <span className="tech-pill">Sistemas legacy</span>
               <span className="tech-pill">Flujos a medida</span>
+              <span className="tech-pill">Reglas de negocio</span>
             </div>
           </article>
 
@@ -48,11 +48,11 @@ export const InterventionModes: React.FC = () => {
                 <Network size={20} color="var(--color-navy)" />
               </div>
               <h3 className="intervention-h3">
-                Tus plataformas funcionan.<br />
-                Pero trabajan separadas.
+                Tus sistemas funcionan.<br />
+                Pero trabajan separados.
               </h3>
               <p className="intervention-body">
-                Integramos ERP, marketplaces, e-commerce, APIs y herramientas internas para que la información de inventario, ventas y despacho fluya de manera automática y sin inconsistencias.
+                Integramos ERP, marketplaces, APIs y herramientas internas para evitar duplicaciones y permitir que la información fluya automáticamente.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ export const InterventionModes: React.FC = () => {
               <span className="tech-pill">Mercado Libre</span>
               <span className="tech-pill">Odoo</span>
               <span className="tech-pill">Marketplaces</span>
-              <span className="tech-pill">APIs REST / Webhooks</span>
+              <span className="tech-pill">APIs REST</span>
             </div>
           </article>
 
@@ -72,19 +72,19 @@ export const InterventionModes: React.FC = () => {
                 <Wrench size={20} color="var(--color-navy)" />
               </div>
               <h3 className="intervention-h3">
-                La herramienta que necesitas<br />
-                todavía no existe.
+                Hay procesos que necesitan<br />
+                una herramienta propia.
               </h3>
               <p className="intervention-body">
-                Diseñamos y desarrollamos software a medida cuando un proceso operacional crítico posee singularidades que ningún software comercial resuelve con la precisión necesaria.
+                Desarrollamos herramientas internas cuando un proceso específico necesita una solución que las plataformas actuales no cubren correctamente.
               </p>
             </div>
 
             <div className="intervention-pills">
-              <span className="tech-pill">Aplicaciones operacionales</span>
-              <span className="tech-pill">Monitores de bodega</span>
               <span className="tech-pill">Herramientas internas</span>
-              <span className="tech-pill">Arquitecturas seguras</span>
+              <span className="tech-pill">Paneles de catálogo</span>
+              <span className="tech-pill">Gestión de pedidos</span>
+              <span className="tech-pill">Sistemas auxiliares</span>
             </div>
           </article>
         </div>

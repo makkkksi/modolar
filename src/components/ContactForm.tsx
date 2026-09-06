@@ -13,12 +13,12 @@ const industryOptions: IndustryOption[] = [
 ];
 
 const needOptions: NeedOption[] = [
-  'Adaptar un ERP',
-  'Integrar sistemas',
+  'Conectar sistemas',
   'Automatizar un proceso',
-  'Desarrollar software a medida',
-  'Mejorar una operación existente',
-  'Necesito orientación',
+  'Adaptar un ERP',
+  'Desarrollar una herramienta interna',
+  'Revisar una operación / proceso',
+  'No estoy seguro todavía',
   'Otro'
 ];
 
@@ -60,9 +60,9 @@ export const ContactForm: React.FC = () => {
     }
 
     if (!formData.operacionDetalle.trim()) {
-      errors.operacionDetalle = 'Por favor descríbenos brevemente cómo funciona tu operación.';
+      errors.operacionDetalle = 'Por favor cuéntanos sobre el proceso que deseas mejorar.';
     } else if (formData.operacionDetalle.trim().length < 15) {
-      errors.operacionDetalle = 'Cuéntanos un poco más de detalle (mínimo 15 caracteres) para entender tu contexto.';
+      errors.operacionDetalle = 'Cuéntanos un poco más de detalle (mínimo 15 caracteres) para entender el proceso.';
     }
 
     setFieldErrors(errors);
@@ -327,7 +327,7 @@ export const ContactForm: React.FC = () => {
           {/* Mensaje principal obligatorio */}
           <div className="form-group form-col-full">
             <label htmlFor="textarea-operacion" className="form-label" style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <span>Cuéntanos sobre tu operación <span style={{ color: 'var(--color-teal)' }}>*</span></span>
+              <span>Cuéntanos sobre el proceso <span style={{ color: 'var(--color-teal)' }}>*</span></span>
               <span style={{ fontSize: '0.75rem', color: 'var(--color-steel)' }}>Principal campo de diagnóstico</span>
             </label>
             <textarea
@@ -337,7 +337,7 @@ export const ContactForm: React.FC = () => {
               rows={4}
               value={formData.operacionDetalle}
               onChange={handleChange}
-              placeholder="¿Cómo funciona actualmente el proceso? ¿Qué herramientas utilizan hoy? ¿Dónde aparece el principal problema o cuello de botella?"
+              placeholder="¿Cómo funciona hoy? ¿Qué herramientas utilizan? ¿Qué parte sigue siendo manual o está generando problemas?"
               className="form-textarea"
               aria-invalid={!!fieldErrors.operacionDetalle}
               aria-describedby={fieldErrors.operacionDetalle ? 'err-operacion' : undefined}

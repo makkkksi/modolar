@@ -7,12 +7,12 @@ export type IndustryOption =
   | 'Otra';
 
 export type NeedOption =
-  | 'Adaptar un ERP'
-  | 'Integrar sistemas'
+  | 'Conectar sistemas'
   | 'Automatizar un proceso'
-  | 'Desarrollar software a medida'
-  | 'Mejorar una operación existente'
-  | 'Necesito orientación'
+  | 'Adaptar un ERP'
+  | 'Desarrollar una herramienta interna'
+  | 'Revisar una operación / proceso'
+  | 'No estoy seguro todavía'
   | 'Otro';
 
 export interface ContactFormData {

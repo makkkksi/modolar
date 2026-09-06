@@ -4,10 +4,10 @@ import { ArrowRight, ArrowDown } from 'lucide-react';
 export const Hero: React.FC = () => {
   return (
     <section className="hero-section" aria-label="Introducción a MODOLAR">
-      {/* Background Logistics Photography */}
+      {/* Human-scale Operational Logistics Photography */}
       <img
-        src="/assets/hero_logistics.jpg"
-        alt="Centro de distribución y operaciones logísticas modernas optimizadas por software"
+        src="/assets/hero_operation_human.jpg"
+        alt="Operador en centro de distribución y almacenamiento utilizando scanner de inventario en terreno"
         className="hero-bg-media"
         loading="eager"
         fetchPriority="high"
@@ -20,10 +20,10 @@ export const Hero: React.FC = () => {
       <div className="hero-bottom-fade" aria-hidden="true" />
 
       <div className="container hero-content">
-        {/* Subtle Tech Consulting Badge */}
+        {/* Sobrio Tech Consulting Label */}
         <div className="hero-badge">
           <span className="hero-badge-dot" />
-          <span className="hero-badge-text">Consultoría Tecnológica · Operaciones</span>
+          <span className="hero-badge-text">CONSULTORÍA TECNOLÓGICA · OPERACIONES</span>
         </div>
 
         {/* Primary H1 */}
@@ -32,15 +32,26 @@ export const Hero: React.FC = () => {
           a tu operación.
         </h1>
 
-        {/* Authentic Brand Subheading */}
+        {/* V2 Strategic Subheading */}
         <p className="hero-desc">
-          Diseñamos, adaptamos e integramos soluciones tecnológicas para optimizar operaciones logísticas, productivas y comerciales. Conectamos tus sistemas alrededor de la forma en que tu empresa realmente funciona.
+          Integramos sistemas, automatizamos procesos y desarrollamos herramientas internas para empresas que necesitan hacer más con la tecnología que ya utilizan.
         </p>
+
+        {/* Discreta línea de alcance técnico */}
+        <div className="hero-ecosystem-tags" aria-label="Alcance tecnológico principal">
+          <span>ERP</span>
+          <span className="hero-tag-separator">·</span>
+          <span>Marketplaces</span>
+          <span className="hero-tag-separator">·</span>
+          <span>APIs</span>
+          <span className="hero-tag-separator">·</span>
+          <span>Software interno</span>
+        </div>
 
         {/* Hero Actions */}
         <div className="hero-actions">
           <a href="#contacto" className="btn btn-primary-light">
-            <span>Cuéntanos tu operación</span>
+            <span>Cuéntanos sobre tu proceso</span>
             <ArrowRight size={16} />
           </a>
           <a href="#metodologia" className="btn btn-secondary-light">

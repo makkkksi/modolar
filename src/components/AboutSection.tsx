@@ -8,30 +8,30 @@ export const AboutSection: React.FC = () => {
         <div className="about-grid">
           {/* Manifiesto Institucional */}
           <div>
-            <span className="eyebrow eyebrow-teal">Sobre nosotros</span>
+            <span className="eyebrow eyebrow-teal">Consultoría tecnológica independiente</span>
             <h2 className="h2-section" style={{ marginBottom: '1.5rem' }}>
               MODOLAR
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
               <p className="lead-text">
-                MODOLAR nace desde una idea simple: las empresas no deberían verse forzadas a modificar toda su operación para ajustarse a herramientas rígidas o empaquetadas.
+                MODOLAR nace de experiencia trabajando directamente con empresas donde ERP, marketplaces, sistemas internos y procesos manuales deben convivir diariamente. El objetivo es resolver problemas tecnológicos concretos sin obligar a las empresas a reemplazar herramientas que todavía funcionan.
               </p>
               <p className="body-text">
-                Combinamos ingeniería de software, integración de sistemas y análisis operacional para construir tecnología alrededor de cómo cada empresa realmente trabaja. Nuestro foco está en la confiabilidad de los procesos diarios, el control de la información y la eliminación de fricciones que ralentizan el crecimiento.
+                Trabajamos desde el proceso hacia la tecnología: primero entendemos cómo funciona la operación y luego definimos qué vale la pena integrar, automatizar, adaptar o desarrollar.
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginTop: '0.75rem', color: 'var(--color-steel)', fontSize: '0.875rem' }}>
                 <Compass size={18} color="var(--color-teal)" />
-                <span>Consultoría tecnológica e ingeniería desde Santiago de Chile para operaciones en expansión.</span>
+                <span>Consultoría tecnológica independiente con base en Santiago de Chile.</span>
               </div>
             </div>
           </div>
 
-          {/* Sin paquetes estándar: Enfoque consultivo a medida */}
+          {/* Sin paquetes estándar: Enfoque desde la operación */}
           <div className="about-manifesto">
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1.25rem' }}>
               <ShieldCheck size={22} color="var(--color-teal)" />
               <span style={{ fontSize: '0.8125rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-navy)' }}>
-                Modelo consultivo
+                Enfoque práctico
               </span>
             </div>
 
@@ -41,12 +41,12 @@ export const AboutSection: React.FC = () => {
             </h3>
 
             <p className="body-text" style={{ marginBottom: '1.25rem' }}>
-              Cada empresa combina procesos, sistemas, personas y objetivos distintos. Por eso no ofrecemos planes prediseñados ni tarifas genéricas: definimos cada intervención después de comprender el contexto real de la operación y diagnosticar qué solución resolverá verdaderamente el cuello de botella.
+              Cada empresa utiliza herramientas y procesos distintos. Por eso el alcance de cada proyecto se define después de entender el problema y evaluar qué intervención realmente genera valor.
             </p>
 
             <div style={{ padding: '1rem 1.25rem', backgroundColor: 'var(--color-gray-surface)', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-gray-light)' }}>
               <p style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-navy)', margin: 0 }}>
-                «El alcance se construye con rigor alrededor del problema que buscamos resolver, asegurando que cada línea de código o integración agregue valor directo a la rentabilidad operativa.»
+                «Primero entendemos cómo funciona el proceso hoy. Después decidimos si la respuesta es adaptar una herramienta, conectar dos sistemas o construir algo específico.»
               </p>
             </div>
           </div>

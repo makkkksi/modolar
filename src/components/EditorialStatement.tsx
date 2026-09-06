@@ -15,10 +15,10 @@ export const EditorialStatement: React.FC = () => {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
             <p className="lead-text">
-              Muchas empresas ya cuentan con ERP, marketplaces, sistemas internos y procesos consolidados a lo largo de los años.
+              Muchas empresas ya cuentan con ERP, marketplaces, sistemas internos y herramientas que funcionan correctamente en gran parte de su operación.
             </p>
             <p className="body-text">
-              Nuestro trabajo no consiste en imponer plataformas desde cero, sino en comprender a fondo cómo operan esas piezas en el día a día, identificar con precisión dónde surgen las fricciones y duplicaciones, y definir la intervención tecnológica exacta que destrabe la operación.
+              El problema aparece en los espacios entre esas herramientas. MODOLAR identifica esas fricciones y define qué conviene adaptar, integrar, automatizar o construir.
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ export const NavyPhilosophy: React.FC = () => {
             Después definimos la tecnología.
           </h2>
           <p className="navy-body">
-            No comenzamos recomendando una plataforma ni forzando migraciones traumáticas. Analizamos en profundidad los procesos reales, las herramientas en uso, las personas que las operan y las restricciones diarias de tu negocio para determinar qué intervención tecnológica tiene verdadero sentido técnico y económico.
+            No comenzamos recomendando una plataforma. Primero entendemos cómo funciona el proceso, qué herramientas existen y dónde aparece la fricción. Después decidimos si tiene sentido adaptar, integrar, automatizar o desarrollar.
           </p>
         </div>
       </div>

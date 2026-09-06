@@ -384,26 +384,24 @@ button, input, select, textarea {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  padding: 0.35rem 0.85rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: var(--radius-sm);
+  gap: 0.65rem;
+  padding: 0;
+  background: transparent;
+  border: none;
   margin-bottom: 1.5rem;
 }
 
 .hero-badge-dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background-color: var(--color-teal);
-  box-shadow: 0 0 8px var(--color-teal);
 }
 
 .hero-badge-text {
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #cfdbe6;
 }
@@ -416,8 +414,26 @@ button, input, select, textarea {
   font-size: clamp(1.125rem, 1.5vw, 1.25rem);
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.88);
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.5rem;
   max-width: 62ch;
+}
+
+.hero-ecosystem-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.hero-tag-separator {
+  color: var(--color-teal);
+  font-weight: 800;
+  opacity: 0.8;
 }
 
 .hero-actions {
@@ -867,6 +883,42 @@ button, input, select, textarea {
   line-height: 1.65;
   color: var(--color-steel);
   margin-bottom: 1.75rem;
+}
+
+.case-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-gray-light);
+}
+
+.case-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.case-step-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-teal);
+}
+
+.case-step-text {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-steel);
+}
+
+.case-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .case-footer {

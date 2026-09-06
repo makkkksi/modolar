@@ -10,29 +10,29 @@ interface SystemNode {
 }
 
 const systems: SystemNode[] = [
-  { id: 'meli', name: 'Mercado Libre', category: 'Marketplace', y: 65, info: 'Sincronización de pedidos, control de stock disponible y publicación de inventario.' },
-  { id: 'marketplaces', name: 'Marketplaces', category: 'Canales digitales', y: 145, info: 'Consolidación de órdenes multicanal y actualización centralizada de catálogo.' },
-  { id: 'odoo', name: 'Odoo ERP', category: 'Gestión empresarial', y: 225, info: 'Recepción de ventas, facturación, órdenes de compra y movimientos de almacén.' },
-  { id: 'interno', name: 'Sistema Interno', category: 'Bases legacy / APIs', y: 305, info: 'Extracción segura de datos históricos y conexión con herramientas locales.' },
-  { id: 'ecommerce', name: 'E-commerce', category: 'Venta directa', y: 385, info: 'Flujo automático de carritos pagados hacia la cola de preparación en bodega.' }
+  { id: 'meli', name: 'Mercado Libre', category: 'Marketplace', y: 65, info: 'Sincronización de pedidos, catálogo y stock disponible sin duplicación.' },
+  { id: 'odoo', name: 'Odoo ERP', category: 'Gestión empresarial', y: 145, info: 'Recepción de ventas, órdenes de compra, inventario y movimientos contables.' },
+  { id: 'ecommerce', name: 'E-commerce', category: 'Venta online', y: 225, info: 'Flujo directo de pedidos hacia la cola de preparación en bodega.' },
+  { id: 'apis', name: 'APIs y Datos', category: 'Servicios externos', y: 305, info: 'Conexión bidireccional mediante webhooks, bases de datos y servicios cloud.' },
+  { id: 'interno', name: 'Sistema Existente', category: 'Herramientas locales', y: 385, info: 'Herramientas internas, planillas y software que tu empresa ya utiliza.' }
 ];
 
 export const EcosystemDiagram: React.FC = () => {
   const [activeNode, setActiveNode] = useState<string>('odoo');
 
-  const selectedSystem = systems.find((s) => s.id === activeNode) || systems[2];
+  const selectedSystem = systems.find((s) => s.id === activeNode) || systems[1];
 
   return (
     <section className="ecosystem-section section-padding" aria-label="Arquitectura del ecosistema MODOLAR">
       <div className="container">
         <div className="ecosystem-header">
-          <span className="eyebrow eyebrow-teal">Integración operacional</span>
+          <span className="eyebrow eyebrow-teal">Integración de sistemas</span>
           <h2 className="h2-section" style={{ marginBottom: '1rem' }}>
             Hacemos que tus sistemas<br />
-            trabajen como uno solo.
+            trabajen mejor juntos.
           </h2>
           <p className="lead-text" style={{ margin: '0 auto' }}>
-            MODOLAR actúa como la capa de orquestación técnica que conecta tus canales comerciales, herramientas de gestión y la realidad física de tu bodega o planta.
+            Conectamos las herramientas que tu empresa ya utiliza para reducir trabajo manual y mantener la información sincronizada.
           </p>
         </div>
 
@@ -204,11 +204,11 @@ export const EcosystemDiagram: React.FC = () => {
                   x="770"
                   y="202"
                   fill="#132238"
-                  fontSize="14"
+                  fontSize="13.5"
                   fontWeight="800"
                   fontFamily="Manrope, sans-serif"
                 >
-                  OPERACIÓN REAL
+                  PROCESO INTERNO
                 </text>
                 <text
                   x="755"
@@ -218,7 +218,7 @@ export const EcosystemDiagram: React.FC = () => {
                   fontWeight="500"
                   fontFamily="Manrope, sans-serif"
                 >
-                  • Inventario físico y picking
+                  • Bodega y preparación
                 </text>
                 <text
                   x="755"
@@ -228,7 +228,7 @@ export const EcosystemDiagram: React.FC = () => {
                   fontWeight="500"
                   fontFamily="Manrope, sans-serif"
                 >
-                  • Despacho y logística de salida
+                  • Despacho y estados
                 </text>
                 <text
                   x="755"
@@ -238,7 +238,7 @@ export const EcosystemDiagram: React.FC = () => {
                   fontWeight="500"
                   fontFamily="Manrope, sans-serif"
                 >
-                  • Control y trazabilidad total
+                  • Sin digitación manual
                 </text>
               </g>
             </svg>

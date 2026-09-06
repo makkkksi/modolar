@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
           </a>
 
           <nav className="navbar-links" aria-label="Navegación principal">
-            <a href="#soluciones" className="navbar-link">Soluciones</a>
+            <a href="#soluciones" className="navbar-link">Dónde trabajamos</a>
             <a href="#metodologia" className="navbar-link">Cómo trabajamos</a>
             <a href="#casos" className="navbar-link">Casos</a>
             <a href="#sobre-modolar" className="navbar-link">MODOLAR</a>
@@ -110,7 +110,7 @@ export const Navbar: React.FC = () => {
                   onClick={closeMobile}
                   style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--color-navy)' }}
                 >
-                  Soluciones
+                  Dónde trabajamos
                 </a>
                 <a
                   href="#metodologia"
@@ -154,7 +154,7 @@ export const Navbar: React.FC = () => {
                 <ArrowRight size={16} />
               </a>
               <p style={{ fontSize: '0.75rem', color: 'var(--color-steel)', marginTop: '1rem', textAlign: 'center' }}>
-                Consultoría tecnológica desde Chile
+                Consultoría independiente con base en Santiago de Chile
               </p>
             </div>
           </div>

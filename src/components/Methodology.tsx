@@ -10,39 +10,39 @@ const steps: Step[] = [
   {
     num: '01',
     title: 'Entender',
-    desc: 'Conocemos a fondo la operación en terreno, las herramientas actuales y los equipos involucrados en el día a día.'
+    desc: 'Conocemos el proceso, las herramientas existentes y las personas involucradas en la operación diaria.'
   },
   {
     num: '02',
     title: 'Diagnosticar',
-    desc: 'Identificamos fricciones críticas, tareas manuales repetitivas, cuellos de botella y riesgos de duplicación de datos.'
+    desc: 'Identificamos duplicaciones, tareas manuales y puntos de fricción donde la información se traba.'
   },
   {
     num: '03',
     title: 'Diseñar',
-    desc: 'Definimos la arquitectura e intervención tecnológica adecuada: adaptar lo existente, conectar plataformas o construir a medida.'
+    desc: 'Definimos qué conviene integrar, adaptar, automatizar o construir con un alcance pragmático.'
   },
   {
     num: '04',
     title: 'Implementar',
-    desc: 'Desarrollamos, integramos o adaptamos las soluciones con pruebas rigurosas en paralelo para asegurar continuidad operativa.'
+    desc: 'Desarrollamos la solución con un alcance claro, validando su funcionamiento paso a paso.'
   },
   {
     num: '05',
     title: 'Optimizar',
-    desc: 'Acompañamos la puesta en marcha, medimos tiempos de ciclo y evolucionamos las herramientas según el crecimiento del negocio.'
+    desc: 'Ajustamos la herramienta según su uso real en terreno y las necesidades del equipo.'
   }
 ];
 
 export const Methodology: React.FC = () => {
   return (
-    <section className="methodology-section section-padding" id="metodologia" aria-label="Metodología de trabajo continuo">
+    <section className="methodology-section section-padding" id="metodologia" aria-label="Metodología de trabajo">
       <div className="container">
         <div style={{ maxWidth: '680px' }}>
-          <span className="eyebrow eyebrow-teal">Metodología de ingeniería</span>
+          <span className="eyebrow eyebrow-teal">Metodología de trabajo</span>
           <h2 className="h2-section">Cómo trabajamos</h2>
           <p className="lead-text" style={{ marginTop: '0.75rem' }}>
-            Un proceso estructurado y transparente diseñado para intervenir sobre operaciones críticas sin interrumpir el flujo del negocio.
+            Un proceso directo y estructurado para intervenir en tus procesos sin alterar la continuidad de tu equipo.
           </p>
         </div>
 
