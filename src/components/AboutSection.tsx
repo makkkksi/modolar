@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, UserCheck } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -22,20 +22,6 @@ export const AboutSection: React.FC = () => {
               <p className="body-text">
                 El enfoque parte desde el proceso: primero se entiende cómo funciona la operación y después se define qué vale la pena integrar, automatizar, adaptar o desarrollar.
               </p>
-
-              {/* Bloque Fundador sobrio y transparente */}
-              <div className="about-founder-card">
-                <div className="about-founder-title">
-                  <UserCheck size={16} color="var(--color-teal)" />
-                  <span>Quién está detrás de MODOLAR</span>
-                </div>
-                <p className="about-founder-text">
-                  MODOLAR es liderado actualmente por su fundador, estudiante de Ingeniería Informática y Telecomunicaciones, con experiencia práctica desarrollando e implementando soluciones para operaciones reales.
-                </p>
-                <p className="about-founder-subtext">
-                  Según el alcance de cada proyecto, MODOLAR puede incorporar colaboradores técnicos especializados.
-                </p>
-              </div>
             </div>
           </div>
 
