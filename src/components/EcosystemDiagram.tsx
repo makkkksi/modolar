@@ -272,7 +272,7 @@ export const EcosystemDiagram: React.FC = () => {
             </div>
 
             <span style={{ fontSize: '0.75rem', color: 'var(--color-steel-light)', fontWeight: 600 }}>
-              Haz clic en cualquier nodo para inspeccionar el flujo
+              Selecciona cualquier sistema para ver el flujo
             </span>
           </div>
         </div>

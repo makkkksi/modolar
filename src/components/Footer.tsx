@@ -49,16 +49,20 @@ export const Footer: React.FC = () => {
             </div>
 
             <div>
-              <div className="footer-col-title">Contacto</div>
+              <div className="footer-col-title">Contacto directo</div>
               <ul className="footer-links">
                 <li>
-                  <a href="#contacto" className="footer-link" style={{ color: 'var(--color-teal)' }}>
-                    Cuéntanos sobre tu proceso →
+                  <a
+                    href="mailto:maximiliano.santibanezh@gmail.com?subject=Consulta%20operacional%20-%20MODOLAR"
+                    className="footer-link"
+                    style={{ color: 'var(--color-teal)', wordBreak: 'break-all', fontSize: '0.8125rem' }}
+                  >
+                    maximiliano.santibanezh@gmail.com →
                   </a>
                 </li>
                 <li>
                   <span style={{ color: '#8a9ba8', fontSize: '0.8125rem' }}>
-                    Estudio tecnológico independiente con base en Santiago de Chile
+                    Santiago de Chile · Respuesta directa
                   </span>
                 </li>
               </ul>

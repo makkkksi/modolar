@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactForm } from './ContactForm';
+import { ContactDirect } from './ContactDirect';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
@@ -36,9 +36,9 @@ export const ContactSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: Formulario amplio integrado */}
+          {/* Right Column: Tarjeta de contacto directo */}
           <div>
-            <ContactForm />
+            <ContactDirect />
           </div>
         </div>
       </div>
