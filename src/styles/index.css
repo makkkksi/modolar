@@ -664,6 +664,22 @@ section[id] {
   margin: 0 auto;
 }
 
+.diagram-svg-container svg [role="button"],
+.diagram-node-btn {
+  outline: none;
+}
+
+.diagram-svg-container svg [role="button"]:focus:not(:focus-visible),
+.diagram-node-btn:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.diagram-svg-container svg [role="button"]:focus-visible,
+.diagram-node-btn:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 3px;
+}
+
 /* Ecosystem Tools Strip */
 .ecosystem-tools-wrap {
   margin-top: 3.5rem;

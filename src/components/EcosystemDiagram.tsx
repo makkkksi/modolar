@@ -104,7 +104,8 @@ export const EcosystemDiagram: React.FC = () => {
                   <g
                     key={sys.id}
                     onClick={() => setActiveNode(sys.id)}
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: 'pointer', outline: 'none' }}
+                    className="diagram-node-btn"
                     role="button"
                     tabIndex={0}
                     aria-label={`Seleccionar sistema ${sys.name}`}
