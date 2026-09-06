@@ -5,7 +5,6 @@ export const NavyPhilosophy: React.FC = () => {
     <section className="navy-section section-padding" aria-label="Filosofía operacional">
       <div className="container">
         <div className="navy-inner">
-          <span className="eyebrow eyebrow-dark">Enfoque MODOLAR</span>
           <h2 className="navy-h2">
             Primero entendemos la operación.<br />
             Después definimos la tecnología.

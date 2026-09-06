@@ -39,7 +39,6 @@ export const Methodology: React.FC = () => {
     <section className="methodology-section section-padding" id="metodologia" aria-label="Metodología de trabajo">
       <div className="container">
         <div style={{ maxWidth: '680px' }}>
-          <span className="eyebrow eyebrow-teal">Metodología de trabajo</span>
           <h2 className="h2-section">Cómo trabajamos</h2>
           <p className="lead-text" style={{ marginTop: '0.75rem' }}>
             Un proceso directo y estructurado para intervenir en tus procesos sin alterar la continuidad de tu equipo.

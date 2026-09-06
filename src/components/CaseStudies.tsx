@@ -8,7 +8,6 @@ export const CaseStudies: React.FC = () => {
       <span id="casos" style={{ display: 'none' }} aria-hidden="true" />
       <div className="container">
         <div style={{ maxWidth: '720px' }}>
-          <span className="eyebrow eyebrow-teal">PROYECTOS REALES</span>
           <h2 className="h2-section">
             Experiencia en operaciones reales.
           </h2>

@@ -18,8 +18,7 @@ export const OperationalFocus: React.FC = () => {
           <div className="focus-list">
             <article className="focus-item">
               <div className="focus-item-header">
-                <span className="focus-item-number">01</span>
-                <PackageCheck size={20} color="var(--color-navy)" />
+                <PackageCheck size={22} color="var(--color-teal)" />
                 <h3 className="focus-item-title">Logística e inventario</h3>
               </div>
               <p className="body-text">
@@ -29,8 +28,7 @@ export const OperationalFocus: React.FC = () => {
 
             <article className="focus-item">
               <div className="focus-item-header">
-                <span className="focus-item-number">02</span>
-                <ShoppingBag size={20} color="var(--color-navy)" />
+                <ShoppingBag size={22} color="var(--color-teal)" />
                 <h3 className="focus-item-title">E-commerce y marketplaces</h3>
               </div>
               <p className="body-text">
@@ -40,8 +38,7 @@ export const OperationalFocus: React.FC = () => {
 
             <article className="focus-item">
               <div className="focus-item-header">
-                <span className="focus-item-number">03</span>
-                <Sliders size={20} color="var(--color-navy)" />
+                <Sliders size={22} color="var(--color-teal)" />
                 <h3 className="focus-item-title">Procesos internos</h3>
               </div>
               <p className="body-text">
@@ -58,7 +55,7 @@ export const OperationalFocus: React.FC = () => {
               loading="lazy"
             />
             <div className="focus-image-caption">
-              <strong>Software dentro de la operación</strong> — herramientas digitales que conviven directamente con personas, inventario y procesos en terreno.
+              <strong>Software dentro de la operación.</strong> Herramientas digitales que conviven directamente con personas, inventario y procesos en terreno.
             </div>
           </div>
         </div>

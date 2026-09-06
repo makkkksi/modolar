@@ -39,7 +39,6 @@ export const Capabilities: React.FC = () => {
     <section className="capabilities-section section-padding" aria-label="Capacidades de MODOLAR">
       <div className="container">
         <div style={{ maxWidth: '720px' }}>
-          <span className="eyebrow eyebrow-teal">SERVICIOS</span>
           <h2 className="h2-section">Qué puede resolver MODOLAR</h2>
           <p className="lead-text" style={{ marginTop: '0.75rem' }}>
             Cinco áreas de intervención técnica para resolver fricciones operativas concretas sin sobrediseñar soluciones.

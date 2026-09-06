@@ -6,7 +6,6 @@ export const InterventionModes: React.FC = () => {
     <section className="intervention-section section-padding" aria-label="Tres modos de intervención de MODOLAR">
       <div className="container">
         <div style={{ maxWidth: '780px' }}>
-          <span className="eyebrow">Principio de intervención</span>
           <h2 className="h2-section" style={{ marginBottom: '1.25rem' }}>
             La solución depende del problema.
           </h2>
@@ -20,7 +19,7 @@ export const InterventionModes: React.FC = () => {
           <article className="intervention-block">
             <div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-                <span className="intervention-tag">01 — ADAPTAR</span>
+                <span className="intervention-tag">ADAPTAR</span>
                 <Layers size={20} color="var(--color-navy)" />
               </div>
               <h3 className="intervention-h3">
@@ -44,7 +43,7 @@ export const InterventionModes: React.FC = () => {
           <article className="intervention-block">
             <div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-                <span className="intervention-tag">02 — CONECTAR</span>
+                <span className="intervention-tag">CONECTAR</span>
                 <Network size={20} color="var(--color-navy)" />
               </div>
               <h3 className="intervention-h3">
@@ -68,7 +67,7 @@ export const InterventionModes: React.FC = () => {
           <article className="intervention-block">
             <div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-                <span className="intervention-tag">03 — CONSTRUIR</span>
+                <span className="intervention-tag">CONSTRUIR</span>
                 <Wrench size={20} color="var(--color-navy)" />
               </div>
               <h3 className="intervention-h3">

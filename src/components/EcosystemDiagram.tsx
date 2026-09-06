@@ -26,7 +26,6 @@ export const EcosystemDiagram: React.FC = () => {
     <section className="ecosystem-section section-padding" aria-label="Arquitectura del ecosistema MODOLAR">
       <div className="container">
         <div className="ecosystem-header">
-          <span className="eyebrow eyebrow-teal">Integración de sistemas</span>
           <h2 className="h2-section" style={{ marginBottom: '1rem' }}>
             Hacemos que tus sistemas<br />
             trabajen mejor juntos.
