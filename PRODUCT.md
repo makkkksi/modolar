@@ -18,12 +18,13 @@ Situation: Cuentan con herramientas existentes (Odoo, ERP internos, Mercado Libr
 ## Product Purpose
 
 Landing page institucional y comercial de alta conversión de MODOLAR V2.
-Posicionar a MODOLAR como consultora tecnológica independiente que conecta sistemas, automatiza tareas repetitivas y desarrolla herramientas internas a medida sin obligar a cambiar plataformas que ya funcionan.
+Posicionar a MODOLAR como un estudio tecnológico independiente enfocado en operaciones, que conecta sistemas, automatiza tareas repetitivas y desarrolla herramientas internas a medida sin obligar a cambiar plataformas que ya funcionan.
 Conversión principal: formulario consultivo profundo ("Cuéntanos qué proceso quieres mejorar").
 
 ## Positioning
 
-"Consultora tecnológica independiente nacida en Santiago de Chile."
+"Estudio tecnológico independiente con base en Santiago de Chile, especializado en integración, automatización y software interno para operaciones de logística, inventario y comercio digital."
+Liderado actualmente por su fundador (estudiante de Ingeniería Informática y Telecomunicaciones con experiencia práctica en proyectos reales), incorporando colaboradores técnicos especializados según el alcance de cada proyecto.
 Filosofía medular: Primero entendemos el proceso. Después decidimos si tiene sentido adaptar, integrar, automatizar o desarrollar.
 Trabajamos en el espacio entre las herramientas que la empresa ya utiliza y los procesos que esas herramientas todavía no resuelven.
 

@@ -3,10 +3,12 @@ import { PackageCheck, ShoppingBag, Sliders } from 'lucide-react';
 
 export const OperationalFocus: React.FC = () => {
   return (
-    <section className="focus-section section-padding" id="soluciones" aria-label="Foco operacional de MODOLAR">
+    <section className="focus-section section-padding" id="que-resolvemos" aria-label="Qué resuelve MODOLAR">
+      {/* Anchor alias for backwards-compatibility */}
+      <span id="soluciones" style={{ display: 'none' }} aria-hidden="true" />
       <div className="container">
         <div className="focus-header">
-          <span className="eyebrow eyebrow-teal">Dónde trabajamos</span>
+          <span className="eyebrow eyebrow-teal">QUÉ RESOLVEMOS</span>
           <h2 className="h2-section" style={{ maxWidth: '680px' }}>
             Tecnología para operaciones que necesitan funcionar mejor.
           </h2>

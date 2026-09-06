@@ -3,15 +3,17 @@ import { ExternalLink, ShoppingBag, Wrench } from 'lucide-react';
 
 export const CaseStudies: React.FC = () => {
   return (
-    <section className="cases-section section-padding" id="casos" aria-label="Casos de experiencia real">
+    <section className="cases-section section-padding" id="proyectos" aria-label="Proyectos de experiencia real">
+      {/* Anchor alias for backwards-compatibility */}
+      <span id="casos" style={{ display: 'none' }} aria-hidden="true" />
       <div className="container">
         <div style={{ maxWidth: '720px' }}>
-          <span className="eyebrow eyebrow-teal">Operaciones conocidas</span>
+          <span className="eyebrow eyebrow-teal">PROYECTOS REALES</span>
           <h2 className="h2-section">
-            Experiencia aplicada a operaciones reales.
+            Experiencia en operaciones reales.
           </h2>
           <p className="lead-text" style={{ marginTop: '0.75rem' }}>
-            Trabajamos con empresas que gestionan inventario físico, pedidos constantes y sincronización de información entre canales digitales y bodegas.
+            Desarrollo e integraciones aplicadas directamente en empresas que gestionan inventario físico, catálogos extensos y plataformas en producción.
           </p>
         </div>
 

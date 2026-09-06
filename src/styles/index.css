@@ -70,6 +70,12 @@ button, input, select, textarea {
   padding-bottom: var(--section-space);
 }
 
+/* Accessible anchor scroll offset preventing sticky navbar overlap */
+[id],
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
 /* ==========================================================================
    Typography Primitives
    ========================================================================== */
@@ -949,6 +955,42 @@ button, input, select, textarea {
   border: 1px solid var(--color-gray-border);
   border-radius: var(--radius-lg);
   padding: 2.5rem;
+}
+
+.about-founder-card {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-border);
+  border-left: 3px solid var(--color-teal);
+  border-radius: var(--radius-md);
+  box-shadow: 0 1px 3px rgba(19, 34, 56, 0.04);
+}
+
+.about-founder-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-navy);
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-founder-text {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-steel);
+  margin-bottom: 0.4rem;
+}
+
+.about-founder-subtext {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--color-steel-light);
+  margin: 0;
 }
 
 /* ==========================================================================

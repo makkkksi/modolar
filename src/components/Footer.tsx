@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
               Tecnología que se adapta a tu operación.
             </p>
             <p style={{ fontSize: '0.8125rem', color: '#8395a7', marginTop: '0.75rem', lineHeight: 1.6 }}>
-              Consultora tecnológica independiente especializada en integración de sistemas, automatización, adaptación de ERP y software interno.
+              Estudio tecnológico independiente especializado en integración de sistemas, automatización, adaptación de ERP y software interno.
             </p>
           </div>
 
@@ -29,9 +29,9 @@ export const Footer: React.FC = () => {
             <div>
               <div className="footer-col-title">Navegación</div>
               <ul className="footer-links">
-                <li><a href="#soluciones" className="footer-link">Dónde trabajamos</a></li>
+                <li><a href="#que-resolvemos" className="footer-link">Qué resolvemos</a></li>
                 <li><a href="#metodologia" className="footer-link">Cómo trabajamos</a></li>
-                <li><a href="#casos" className="footer-link">Casos</a></li>
+                <li><a href="#proyectos" className="footer-link">Proyectos</a></li>
                 <li><a href="#sobre-modolar" className="footer-link">MODOLAR</a></li>
                 <li><a href="#contacto" className="footer-link">Contacto</a></li>
               </ul>
@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
                 </li>
                 <li>
                   <span style={{ color: '#8a9ba8', fontSize: '0.8125rem' }}>
-                    Consultoría independiente con base en Santiago de Chile
+                    Estudio tecnológico independiente con base en Santiago de Chile
                   </span>
                 </li>
               </ul>

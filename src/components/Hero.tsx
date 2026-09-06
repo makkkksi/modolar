@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
         {/* Sobrio Tech Consulting Label */}
         <div className="hero-badge">
           <span className="hero-badge-dot" />
-          <span className="hero-badge-text">CONSULTORÍA TECNOLÓGICA · OPERACIONES</span>
+          <span className="hero-badge-text">INTEGRACIONES · AUTOMATIZACIÓN · SOFTWARE INTERNO</span>
         </div>
 
         {/* Primary H1 */}

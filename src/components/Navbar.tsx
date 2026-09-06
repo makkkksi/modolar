@@ -42,9 +42,9 @@ export const Navbar: React.FC = () => {
           </a>
 
           <nav className="navbar-links" aria-label="Navegación principal">
-            <a href="#soluciones" className="navbar-link">Dónde trabajamos</a>
+            <a href="#que-resolvemos" className="navbar-link">Qué resolvemos</a>
             <a href="#metodologia" className="navbar-link">Cómo trabajamos</a>
-            <a href="#casos" className="navbar-link">Casos</a>
+            <a href="#proyectos" className="navbar-link">Proyectos</a>
             <a href="#sobre-modolar" className="navbar-link">MODOLAR</a>
             <a href="#contacto" className="navbar-link">Contacto</a>
           </nav>
@@ -106,11 +106,11 @@ export const Navbar: React.FC = () => {
 
               <nav style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <a
-                  href="#soluciones"
+                  href="#que-resolvemos"
                   onClick={closeMobile}
                   style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--color-navy)' }}
                 >
-                  Dónde trabajamos
+                  Qué resolvemos
                 </a>
                 <a
                   href="#metodologia"
@@ -120,11 +120,11 @@ export const Navbar: React.FC = () => {
                   Cómo trabajamos
                 </a>
                 <a
-                  href="#casos"
+                  href="#proyectos"
                   onClick={closeMobile}
                   style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--color-navy)' }}
                 >
-                  Casos
+                  Proyectos
                 </a>
                 <a
                   href="#sobre-modolar"
@@ -154,7 +154,7 @@ export const Navbar: React.FC = () => {
                 <ArrowRight size={16} />
               </a>
               <p style={{ fontSize: '0.75rem', color: 'var(--color-steel)', marginTop: '1rem', textAlign: 'center' }}>
-                Consultoría independiente con base en Santiago de Chile
+                Estudio tecnológico independiente con base en Santiago de Chile
               </p>
             </div>
           </div>

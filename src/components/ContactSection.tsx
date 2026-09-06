@@ -17,7 +17,7 @@ export const ContactSection: React.FC = () => {
               No necesitas saber qué tecnología necesitas. Cuéntanos cómo funciona hoy, qué herramientas utilizan y dónde aparece el problema.
             </p>
             <p className="body-text" style={{ marginBottom: '2rem' }}>
-              El primer paso de nuestro trabajo es comprender el proceso y el flujo de la información. Si podemos ayudarte, te diremos con honestidad cómo intervenir: adaptando lo existente, conectando plataformas o desarrollando una herramienta propia.
+              El primer paso del trabajo de MODOLAR es comprender el proceso y el flujo de la información. Si es viable resolverlo, se define con honestidad cómo intervenir: adaptando lo existente, conectando plataformas o desarrollando una herramienta propia.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', borderTop: '1px solid var(--color-gray-border)', paddingTop: '1.75rem' }}>

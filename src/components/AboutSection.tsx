@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, ShieldCheck } from 'lucide-react';
+import { ShieldCheck, UserCheck } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -8,20 +8,33 @@ export const AboutSection: React.FC = () => {
         <div className="about-grid">
           {/* Manifiesto Institucional */}
           <div>
-            <span className="eyebrow eyebrow-teal">Consultoría tecnológica independiente</span>
+            <span className="eyebrow eyebrow-teal">ESTUDIO TECNOLÓGICO INDEPENDIENTE</span>
             <h2 className="h2-section" style={{ marginBottom: '1.5rem' }}>
               MODOLAR
             </h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem' }}>
               <p className="lead-text">
-                MODOLAR nace de experiencia trabajando directamente con empresas donde ERP, marketplaces, sistemas internos y procesos manuales deben convivir diariamente. El objetivo es resolver problemas tecnológicos concretos sin obligar a las empresas a reemplazar herramientas que todavía funcionan.
+                MODOLAR es un estudio tecnológico independiente con base en Santiago de Chile, enfocado en resolver problemas concretos de integración, automatización y software operacional.
               </p>
               <p className="body-text">
-                Trabajamos desde el proceso hacia la tecnología: primero entendemos cómo funciona la operación y luego definimos qué vale la pena integrar, automatizar, adaptar o desarrollar.
+                La iniciativa nace de experiencia trabajando directamente con empresas donde ERP, marketplaces, sistemas internos y procesos manuales deben convivir diariamente.
               </p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginTop: '0.75rem', color: 'var(--color-steel)', fontSize: '0.875rem' }}>
-                <Compass size={18} color="var(--color-teal)" />
-                <span>Consultoría tecnológica independiente con base en Santiago de Chile.</span>
+              <p className="body-text">
+                El enfoque parte desde el proceso: primero se entiende cómo funciona la operación y después se define qué vale la pena integrar, automatizar, adaptar o desarrollar.
+              </p>
+
+              {/* Bloque Fundador sobrio y transparente */}
+              <div className="about-founder-card">
+                <div className="about-founder-title">
+                  <UserCheck size={16} color="var(--color-teal)" />
+                  <span>Quién está detrás de MODOLAR</span>
+                </div>
+                <p className="about-founder-text">
+                  MODOLAR es liderado actualmente por su fundador, estudiante de Ingeniería Informática y Telecomunicaciones, con experiencia práctica desarrollando e implementando soluciones para operaciones reales.
+                </p>
+                <p className="about-founder-subtext">
+                  Según el alcance de cada proyecto, MODOLAR puede incorporar colaboradores técnicos especializados.
+                </p>
               </div>
             </div>
           </div>
@@ -41,7 +54,7 @@ export const AboutSection: React.FC = () => {
             </h3>
 
             <p className="body-text" style={{ marginBottom: '1.25rem' }}>
-              Cada empresa utiliza herramientas y procesos distintos. Por eso el alcance de cada proyecto se define después de entender el problema y evaluar qué intervención realmente genera valor.
+              Cada empresa utiliza herramientas y procesos distintos. Por eso el alcance de cada proyecto se define después de entender el problema y determinar qué intervención realmente tiene sentido.
             </p>
 
             <div style={{ padding: '1rem 1.25rem', backgroundColor: 'var(--color-gray-surface)', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-gray-light)' }}>
